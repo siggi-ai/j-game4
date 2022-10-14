@@ -4,21 +4,12 @@ function game() {
     var computerPunkte = 0;
     var anzahlRunden = 0;
 
-    var computerHand = Math.random()*3 + 0.5;
-    computerHand = Math.round(computerHand);
-    
-/*     if(computerHand == 1){
-        alert("Schere!");
-    }
-    if(computerHand == 2){
-        alert("Stein!");
-    }
-    if(computerHand == 3){
-        alert("Papier!")
-    } */
-
     do{
+        var computerHand = Math.random()*3 + 0.5;
+        computerHand = Math.round(computerHand);
+
         var userHand = prompt("Schere(1), Stein(2) oder Papier(3)?", "");
+
         if(computerHand == 1 && userHand == 1){
             alert("Schere gegen Schere. Keiner gewinnt.");
             anzahlRunden++;
