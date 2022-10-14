@@ -1,9 +1,5 @@
 function game() {
 
-    var userHand = prompt("Schere(1), Stein(2) oder Papier(3)?", "");
-    /* alert(userHand); */
-
-    var anzahlGewinn = 0;
     var userPunkte = 0;
     var computerPunkte = 0;
     var anzahlRunden = 0;
@@ -11,7 +7,7 @@ function game() {
     var computerHand = Math.random()*3 + 0.5;
     computerHand = Math.round(computerHand);
     
-    if(computerHand == 1){
+/*     if(computerHand == 1){
         alert("Schere!");
     }
     if(computerHand == 2){
@@ -19,7 +15,7 @@ function game() {
     }
     if(computerHand == 3){
         alert("Papier!")
-    }
+    } */
 
     do{
         var userHand = prompt("Schere(1), Stein(2) oder Papier(3)?", "");
