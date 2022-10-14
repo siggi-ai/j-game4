@@ -1,0 +1,14 @@
+.startButton {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+    
+}
+.button {
+    margin: 0 auto;
+    background-color: rgb(239, 175, 255);
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
