@@ -55,11 +55,11 @@ function game() {
     }while(computerPunkte < 3 && userPunkte < 3);
 
     if(userPunkte >= 3){
-        alert("Du hast gewonnen!\nAnzahl der Runden: " + anzahlRunden + "\nPunkte Computer: " + computerPunkte + "\nPunkte User: " + userPunkte);
+        alert("Du hast gewonnen!\nAnzahl der Runden: " + anzahlRunden + "\nPunkte Computer: " + computerPunkte + "\nPunkte User*in: " + userPunkte);
     }
 
     if(computerPunkte >= 3){
-        alert("Computer hat gewonnen!\nAnzahl der Runden: " + anzahlRunden + "\nPunkte Computer: " + computerPunkte + "\nPunkte User: " + userPunkte);
+        alert("Computer hat gewonnen!\nAnzahl der Runden: " + anzahlRunden + "\nPunkte Computer: " + computerPunkte + "\nPunkte User*in: " + userPunkte);
     }
 
 }
