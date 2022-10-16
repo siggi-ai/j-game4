@@ -10,6 +10,10 @@ function game() {
 
         var userHand = prompt("Schere(1), Stein(2) oder Papier(3)?", "");
 
+        if(userHand != 1 && userHand != 2 && userHand != 3){
+            alert("Gib bitte die Zahlen 1, 2, oder 3 ein!")
+        }
+
         if(computerHand == 1 && userHand == 1){
             alert("Schere gegen Schere. Keiner gewinnt.");
             anzahlRunden++;
